@@ -5,8 +5,8 @@
 CREATE TABLE alumnos (
   Id int NOT NULL Primary Key,
   Nombre varchar(20),
-  Apellido varchar(30) NOT NULL,
-  Edad int NOT NULL
+  Apellido varchar(30),
+  Edad int
 ) 
 
 
